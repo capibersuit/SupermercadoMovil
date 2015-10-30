@@ -18,7 +18,8 @@
         android:id="@+id/button"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="129dp" />
+        android:layout_marginTop="129dp"
+        android:onClick="abrirPantallaListaDeCompras" />
 
     <Button
         android:layout_width="wrap_content"
@@ -26,7 +27,8 @@
         android:text="Productos"
         android:id="@+id/button2"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick="abrirPantallaProductos" />
 
     <Button
         android:layout_width="wrap_content"
